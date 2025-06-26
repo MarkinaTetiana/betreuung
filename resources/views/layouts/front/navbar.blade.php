@@ -2,7 +2,7 @@
     <a href="#" class="navbar-brand m-3">
         <img src="{{ asset('assets/images/logo.png') }}" alt="Logo"  width="240" height="60" >
     </a>
-    <div class="d-flex m-3">
+    <div class="d-flex flex-wrap gap-2 m-2 w-100 justify-content-end">
         <a href="{{ route('front.index') }}" class="btn btn-secondary me-2">Home</a>
         <a href="#" class="btn btn-secondary me-2">About</a>
         <a href="#" class="btn btn-secondary me-2">Contact</a>

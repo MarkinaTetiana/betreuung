@@ -1,9 +1,9 @@
 <footer class="py-3">
     <div class="container">
         <div class="row">
-            <div class="col-3 col-md-3 border-none bg-light p-5 d-flex flex-column justify-content-between me-3" >
-                <div >
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="Logo"  width="240" height="60" >
+            <div class="col-12 col-md-3 border-none bg-light p-5 p-md-3 d-md-flex flex-md-column justify-content-md-between mb-3 mb-md-0 me-md-3">
+                <div>
+                    <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="img-fluid mt-3" style="max-width: 100%; height: auto;">
                 </div>
                 <div class="mt-auto">
                     <ul class="gap-4 d-flex flex-column list-unstyled">
@@ -22,8 +22,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="row col-8 col-md-8 border-none bg-light p-5 d-flex flex-column ms-3 h-100">
-                <div class="rounded p-4">
+            <div class="col-12 col-md-8 border-none bg-light p-5 p-md-3 ">
+                <div class="rounded mb-3">
                     <div class="row justify-content-between">
                         <div class="col">
                             <h5 class="mb-4">Pages</h5>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-3 d-flex justify-content-between align-items-center w-100 border-3 rounded p-4">
+                <div class=" d-flex justify-content-between align-items-center w-100 border-3 rounded p-4">
                     <div>
                         <span class="small">&copy; SenioAngel</span>
                     </div>
