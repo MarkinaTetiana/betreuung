@@ -1,73 +1,72 @@
-<footer class="py-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-3 border-none bg-light p-lg-5 p-md-3 p-sm-3 d-md-flex flex-md-column justify-content-md-between mb-3 mb-md-0 me-md-3">
-                <div>
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="img-fluid" style="max-width: 100%; height: auto;">
-                </div>
-                <div class="mt-auto">
-                    <ul class="gap-4 d-flex flex-column list-unstyled">
-                        <li>
-                            <a href="#" class="text-dark text-decoration-none"><img src="{{ asset('assets/images/social/instagram-logo.png') }}" alt="Instagram" width="20" height="20" class="me-2">Instagram</a>
-                        </li>                    
-                        <li>
-                            <a href="#" class="text-dark text-decoration-none"><img src="{{ asset('assets/images/social/twitter-logo.png') }}" alt="Twitter" width="20" height="20" class="me-2">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-dark text-decoration-none"><img src="{{ asset('assets/images/social/dribbble-logo.png') }}" alt="Dribbble" width="20" height="20" class="me-2">Dribbble</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-dark text-decoration-none"><img src="{{ asset('assets/images/social/behance-logo.png') }}" alt="Behance" width="20" height="20" class="me-2">Behance</a>
-                        </li>
+<footer class="text-muted pb-5">
+    <div class="container h-100">
+            <div class="row gy-4 align-items-stretch">
+            <!-- Column 1: Logo + Socials -->
+            <div class="col-md-4 ">
+                <div class="card border-0 rounded bg-light p-5 w-100 h-100 d-flex flex-column justify-content-between">
+                    <div class="mb-4">
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="SenioAngel Logo"  class="img-fluid ">
+                    </div>
+                    <ul class="list-unstyled font-family-monospace text-size-sm">
+                        <li class="mb-4"><img src="{{ asset('assets/images/social/instagram-logo.png') }}" alt="Instagram" width="20" height="20" class="me-3">Instagram</li>
+                        <li class="mb-4"><img src="{{ asset('assets/images/social/facebook-logo.png') }}" alt="Facebook" width="20" height="20" class="me-3">Facebook</li>
+                        <li class="mb-4"><img src="{{ asset('assets/images/social/behance-logo.png') }}" alt="Behance" width="20" height="20" class="me-3">Behance</li>
+                        <li class="mb-4"><img src="{{ asset('assets/images/social/dribbble-logo.png') }}" alt="Dribbble" width="20" height="20" class="me-3">Dribbble</li>
+                        <li class="mb-4"><img src="{{ asset('assets/images/social/twitter-logo.png') }}" alt="Twitter" width="20" height="20" class="me-3">Twitter</li>
                     </ul>
+            
                 </div>
             </div>
-            <div class="col-12 col-md-8 border-none bg-light p-lg-5 p-md-3 p-sm-3">
-                <div class="rounded mb-3">
-                    <div class="row justify-content-between">
-                        <div class="col">
-                            <h5 class="mb-4">Pages</h5>
-                            <ul class="list-unstyled">
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Home</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Services</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Studio</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Jobs</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+            <!-- Column 2: Pages + copyright-->
+            <div class="col-md-8  d-flex flex-column">
+                <div class="card border-0 border-radius bg-light p-5 flex-grow-1">
+                    <div class="row d-flex justify-content-between">
+                        <!-- Column 2: Pages -->
+                        <div class="col-md-3 ">
+                            <h5 class="text-uppercase fw-light mb-5">Pages</h5>
+                            <ul class="list-unstyled font-family-monospace text-size-sm fw-light text-uppercase ">
+                                <li class="mb-4"><a href="#" class="text-decoration-none text-dark">Home</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none text-dark">Services</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none text-dark">Studio</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none text-dark">Jobs</a></li>
+                                <li class="mb-3"><a href="#" class="text-decoration-none text-dark">Contact</a></li>
                             </ul>
                         </div>
-                        <div class="col">
-                            <h5 class="mb-4">CMS</h5>
-                            <ul class="list-unstyled">
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Projects</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Project Single</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Blog</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Blog Post</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Shop</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Shop Single</a></li>
+                    
+                        <!-- Column 3: CMS -->
+                        <div class="col-md-3">
+                            <h5 class="text-uppercase fw-light mb-5">CMS</h5>
+                            <ul class="list-unstyled font-family-monospace text-size-sm fw-light text-uppercase ">
+                                <li class="mb-4"><a href="#" class="text-decoration-none font-family-monospace  text-dark">Projects</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none font-family-monospace  text-dark">Project Single</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none font-family-monospace  text-dark">Blog</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none font-family-monospace  text-dark">Blog Post</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none font-family-monospace  text-dark">Shop</a></li>
+                                <li><a href="#" class="text-decoration-none  text-dark">Shop Single</a></li>
                             </ul>
                         </div>
-                        <div class="col">
-                            <h5 class="mb-4">Utility Pages</h5>
-                            <ul class="list-unstyled">
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">404 Error Page</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Password Protected</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Styleguide</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Licensing</a></li>
-                                <li class="mb-4"><a href="#" class="text-dark text-decoration-none">Changelog</a></li>
+                    
+                        <!-- Column 4: Utility Pages -->
+                        <div class="col-md-3">
+                            <h5 class="text-uppercase fw-light mb-5">Utility Pages</h5>
+                            <ul class="list-unstyled font-family-monospace text-size-sm fw-light text-uppercase ">
+                                <li class="mb-4"><a href="#" class="text-decoration-none  text-dark">404 Error Page</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none  text-dark">Password Protected</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none  text-dark">Styleguide</a></li>
+                                <li class="mb-4"><a href="#" class="text-decoration-none  text-dark">Licensing</a></li>
+                                <li><a href="#" class="text-decoration-none  text-dark">Changelog</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class=" d-flex justify-content-between align-items-center w-100 border-3 rounded p-4">
+                <div class="card border-radius border-0 bg-light p-4 mt-4 d-flex flex-row justify-content-between align-items-left">
+                    <p class="mb-2 mb-md-0 small">© SenioAngel</p>
                     <div>
-                        <span class="small">&copy; SenioAngel</span>
-                    </div>
-                    <div>
-                        <a href="#" class="me-3 small text-dark text-decoration-none">Imprint</a>
-                        <a href="#" class="small text-dark text-decoration-none">Privacy</a>
-                    </div>
+                        <a href="#" class="text-decoration-none text-dark me-3 small">IMPRINT</a>
+                        <a href="#" class="text-decoration-none text-dark small">PRIVACY</a>
+                    </div>        
                 </div>
-            </div>
+            </div>     
         </div>
     </div>
 </footer>
