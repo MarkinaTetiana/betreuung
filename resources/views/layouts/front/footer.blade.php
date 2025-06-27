@@ -1,9 +1,9 @@
 <footer class="py-3">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-3 border-none bg-light p-5 p-md-3 d-md-flex flex-md-column justify-content-md-between mb-3 mb-md-0 me-md-3">
+            <div class="col-12 col-md-3 border-none bg-light p-lg-5 p-md-3 p-sm-3 d-md-flex flex-md-column justify-content-md-between mb-3 mb-md-0 me-md-3">
                 <div>
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="img-fluid mt-3" style="max-width: 100%; height: auto;">
+                    <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="img-fluid" style="max-width: 100%; height: auto;">
                 </div>
                 <div class="mt-auto">
                     <ul class="gap-4 d-flex flex-column list-unstyled">
@@ -22,7 +22,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-md-8 border-none bg-light p-5 p-md-3 ">
+            <div class="col-12 col-md-8 border-none bg-light p-lg-5 p-md-3 p-sm-3">
                 <div class="rounded mb-3">
                     <div class="row justify-content-between">
                         <div class="col">
