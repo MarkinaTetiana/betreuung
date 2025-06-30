@@ -15,4 +15,9 @@ class FrontController extends Controller
     {
         return view("front.coming_soon");
     }
+
+    public function contact()
+    {
+        return view("front.contact");
+    }
 }
